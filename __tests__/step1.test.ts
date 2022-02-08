@@ -5,3 +5,11 @@ Distance is rounded up to the nearest 0.5km, and waiting time is rounded up to t
 Total Fare = $2 per kilometer + $1 per minute of waiting
 
 * */
+
+import {calculateFare} from "../src/fare"
+
+describe("fare", ()=>{
+    it("compiles", ()=>{
+        calculateFare()
+    })
+})
